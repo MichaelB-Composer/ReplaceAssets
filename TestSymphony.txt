@@ -1,0 +1,10 @@
+(defsymphony
+ "Test Symphony"
+ {:rebalance-threshold 0.1}
+ (weight-equal
+  [(asset "UVXY")
+   (asset "TQQQ")
+   (asset "UPRO") 
+   (asset "BIL") 
+   (asset "TECL") 
+   (asset "VGT")]))
